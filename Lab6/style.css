@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    font-size: 120%;
+}
+a:link[href="biography.html"] {
+    color: #ff0000;
+}
+a:visited[href="biography.html"] {
+    color: #008000;
+}
+a:link[href="nowadays.html"] {
+    color: #0000ff;
+}
+a:visited[href="nowadays.html"] {
+    color: #ffa500;
+}
+a:link[href="friends.html"] {
+    color: #ffff00;
+}
+a:visited[href="friends.html"] {
+    color: #800080;
+}
+a:link[href="gallery.html"] {
+    color: #ffc0cb;
+}
+a:visited[href="gallery.html"] {
+    color: #808080;
+}
+ul {
+    list-style: none;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+@media (min-width: 993px) {
+    .col-lg-4
+    {
+        width: 25%;
+    }
+
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 50%;
+    }
+}
+@media (max-width: 768px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+}
